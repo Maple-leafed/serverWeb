@@ -1,0 +1,29 @@
+{
+  "name": "serverWeb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "work": "npx webpack --config webpack.config.js",
+    "serve": "npx webpack-dev-server --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maple-leafed/serverWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maple-leafed/serverWeb/issues"
+  },
+  "homepage": "https://github.com/Maple-leafed/serverWeb#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.4.0",
+    "jquery": "^3.6.0",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
